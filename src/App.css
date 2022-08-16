@@ -1,0 +1,131 @@
+*{
+  box-sizing: border-box;
+  color: aliceblue;
+  /* color: rgba(215, 255, 215, 0.678); */
+  
+}
+.App {
+  text-align: center;
+}
+
+body{
+  background-color: rgba(48, 47, 47);
+  
+}
+
+.Navbar{
+  background-image: url(./images/rick-y-morty-en-el-espacio_3840x2160_xtrafondos.com.jpg);
+  background-position: 50% 70%;
+  background-size: cover;
+  height: 500px;
+  box-shadow: 2px 2px 4px 2px rgba(253, 4, 241, 0.466);
+}
+
+h1{
+  text-align: center;
+  font-family: 'Pangolin', cursive;
+  font-size: 4rem;
+  font-weight: bold;
+  padding: 2rem;
+  color: rgb(255, 255, 255);
+  
+}
+
+.imput{
+  color: white;
+  background-color: rgb(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 4px 2px rgba(253, 4, 241, 0.466);
+  width: 50%;
+}
+
+.button_imput{
+  border: none;
+  background-color: rgba(245, 118, 0, 0.829);
+  box-shadow: 2px 2px 4px 2px rgba(245, 118, 0, 0.329);
+  margin-left: 1rem;
+  width: 80px;
+  height: 33px;
+  border-radius: 20px;
+}
+
+h3{
+  font-family: 'Pangolin', cursive;
+  margin: 2rem;
+  font-size: 2rem;
+}
+
+.container-cards{
+  width: 400px;
+  height: auto;
+  justify-content: center;
+  margin: auto;
+  margin-top: 2rem;
+  display: inline-block;
+
+}
+
+.cards{
+  display: flex;
+  background: rgb(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 4px 2px rgba(253, 4, 241, 0.466);
+  margin-bottom: 5px;
+  border-radius: 10px;
+  text-align: left;
+  height: 220px;
+  width: 90%
+}
+.cards img{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 160px;
+    
+}
+
+li{
+  list-style: none;
+}
+
+.circle-green{
+  display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+.circle-red{
+  display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    border-radius: 50%;
+    background-color: red;
+}
+.circle-grey{
+  display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    border-radius: 50%;
+    background-color: grey;
+}
+
+.info{
+  padding: 5px 0 0 20px;
+  
+}
+
+.description{
+  font-size: .8rem;
+    margin-bottom: 2px;
+    color: hsla(0,0%,100%,.4);
+}
+
+ul{
+  padding: 0;
+}
+
+.pad{
+  padding: 0;
+}
